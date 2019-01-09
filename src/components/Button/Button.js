@@ -17,7 +17,9 @@ const ButtonText = styled.Text`
 
 export default function Button({children, onPress}) {
   return (
-    <ButtonWrapper onPress={onPress} accessibilityRole="button">
+    <ButtonWrapper onPress={onPress}
+      accessibilityTraits="button"
+      accessibilityComponentType="button">
       <ButtonText>{children}</ButtonText>
     </ButtonWrapper>
   )

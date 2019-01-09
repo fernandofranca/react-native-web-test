@@ -4,6 +4,8 @@ import styled, { css } from 'styled-components/native';
 
 import Text from './components/Text'
 import Title from './components/Title'
+import Label from './components/Label'
+import Article from './components/Article'
 import Button from './components/Button'
 
 const ComponentWrapper = styled.View`
@@ -22,11 +24,15 @@ const App = (props) => {
     <ComponentWrapper>
       <Title>Componente de título</Title>
       <Text>Teste com componentes cross-platform</Text>
+      <Label>A simple label</Label>
       <ColumnsWrapper>
         <Button onPress={()=>console.log("Button pressed.")}>
           Button's label
         </Button>
       </ColumnsWrapper>
+      <Article>
+        <Text>Article's text</Text>
+      </Article>
     </ComponentWrapper>
   );
 }

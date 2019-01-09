@@ -11,3 +11,5 @@ const Title = styled(Text)`
 export default function StyledTitle(props) {
   return (<Title accessibilityTraits="header" accessibilityComponentType="header" {...props} />)
 }
+
+ 
