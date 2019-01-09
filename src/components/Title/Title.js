@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components/native';
 import Text from '../Text'
 
@@ -7,4 +8,6 @@ const Title = styled(Text)`
   font-weight: bold;
 `
 
-export default Title;
+export default function StyledTitle(props) {
+  return (<Title accessibilityTraits="header" accessibilityComponentType="header" {...props} />)
+}

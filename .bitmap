@@ -18,23 +18,6 @@
         "trackDir": "src/components/Title",
         "origin": "AUTHORED"
     },
-    "fernandodefranca.comps/components/button@1.0.0": {
-        "files": [
-            {
-                "relativePath": "src/components/Button/Button.js",
-                "test": false,
-                "name": "Button.js"
-            },
-            {
-                "relativePath": "src/components/Button/index.js",
-                "test": false,
-                "name": "index.js"
-            }
-        ],
-        "mainFile": "src/components/Button/index.js",
-        "trackDir": "src/components/Button",
-        "origin": "AUTHORED"
-    },
     "fernandodefranca.comps/components/text@1.0.0": {
         "files": [
             {
@@ -50,6 +33,23 @@
         ],
         "mainFile": "src/components/Text/index.js",
         "trackDir": "src/components/Text",
+        "origin": "AUTHORED"
+    },
+    "fernandodefranca.comps/components/button@1.0.1": {
+        "files": [
+            {
+                "relativePath": "src/components/Button/Button.js",
+                "test": false,
+                "name": "Button.js"
+            },
+            {
+                "relativePath": "src/components/Button/index.js",
+                "test": false,
+                "name": "index.js"
+            }
+        ],
+        "mainFile": "src/components/Button/index.js",
+        "trackDir": "src/components/Button",
         "origin": "AUTHORED"
     },
     "version": "13.0.4"
