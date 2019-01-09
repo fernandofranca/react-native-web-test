@@ -10,6 +10,6 @@ const StyledLabel = styled(Text)`
 `
 
 export default function Label(props) {
-  return (<StyledLabel accessibilityTraits="label" accessibilityComponentType="label" {...props} />)
+  return (<StyledLabel accessibilityRole="text" accessibilityTraits="label" accessibilityComponentType="label" {...props} />)
 }
  

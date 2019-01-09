@@ -8,6 +8,11 @@ const Title = styled(Text)`
   font-weight: bold;
 `
 
+/**
+ * A simple title component
+ * 
+ * Should support different levels
+ */
 export default function StyledTitle(props) {
   return (<Title accessibilityTraits="header" accessibilityComponentType="header" {...props} />)
 }

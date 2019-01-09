@@ -38,7 +38,7 @@
             "fernandodefranca.comps/components/text@1.0.0"
         ]
     },
-    "fernandodefranca.comps/components/title@1.0.3": {
+    "fernandodefranca.comps/components/title@1.0.5": {
         "files": [
             {
                 "relativePath": "src/components/Title/Title.js",
@@ -58,7 +58,7 @@
             "fernandodefranca.comps/components/text@1.0.0"
         ]
     },
-    "fernandodefranca.comps/components/label@1.0.5": {
+    "fernandodefranca.comps/components/label@1.0.7": {
         "files": [
             {
                 "relativePath": "src/components/Label/Label.js",
@@ -75,7 +75,7 @@
         "trackDir": "src/components/Label",
         "origin": "AUTHORED"
     },
-    "fernandodefranca.comps/components/article@0.0.1": {
+    "fernandodefranca.comps/components/article@0.0.2": {
         "files": [
             {
                 "relativePath": "src/components/Article/Article.js",
